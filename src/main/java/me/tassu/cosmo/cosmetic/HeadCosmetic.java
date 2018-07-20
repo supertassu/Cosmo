@@ -41,12 +41,12 @@ import java.util.UUID;
 
 public final class HeadCosmetic extends SimpleCosmetic {
 
-    @Getter private final String texture;
+    @Getter private final UUID uuid;
 
     @Builder
-    public HeadCosmetic(String identifier, String name, String texture) {
+    public HeadCosmetic(String identifier, String name, String uuid) {
         super(identifier, name, CosmeticType.HEAD);
-        this.texture = texture;
+        this.uuid = UUID.fromString(uuid);
     }
 
     private ItemStack generateItemStack() {
@@ -56,8 +56,7 @@ public final class HeadCosmetic extends SimpleCosmetic {
 
         item.offer(Keys.SKULL_TYPE, SkullTypes.PLAYER);
         item.offer(Keys.DISPLAY_NAME, Text.of(TextStyles.RESET, getName()));
-        item.offer(Keys.REPRESENTED_PLAYER, GameProfile.of(UUID.fromString("3e81ceab-549d-4565-9769-ab991e663801")));
-        // TODO set texture
+        item.offer(Keys.REPRESENTED_PLAYER, GameProfile.of(uuid));
 
         return item;
     }

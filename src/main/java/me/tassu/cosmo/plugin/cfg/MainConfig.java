@@ -48,7 +48,7 @@ public class MainConfig {
     @Setting
     @Getter
     private List<AbstractCosmetic> cosmetics = Lists.newArrayList(
-            new HeadCosmetic("head_shrek", "Shrek", "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg2OGRkNTBiY2I3M2M0N2M0YWFlZTc1YzdlYjNjNzA5Nzg4NWQ0YTlkZDM0YTU3YzhjYTQ4ZGUzYjc2NTk4YSJ9fX0=")
+            new HeadCosmetic("head_shrek", "Shrek", "3e81ceab-549d-4565-9769-ab991e663801")
     );
 
 }

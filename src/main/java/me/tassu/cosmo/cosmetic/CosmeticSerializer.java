@@ -43,7 +43,7 @@ public class CosmeticSerializer implements TypeSerializer<AbstractCosmetic> {
                     return HeadCosmetic.builder()
                             .identifier(value.getNode("id").getString())
                             .name(value.getNode("name").getString())
-                            .texture(value.getNode("texture").getString())
+                            .uuid(value.getNode("uuid").getString())
                             .build();
                 default:
                     throw new IllegalArgumentException("Un-implemented cosmetic type " + cosmeticType.name());
@@ -65,7 +65,7 @@ public class CosmeticSerializer implements TypeSerializer<AbstractCosmetic> {
             switch (cosmeticType) {
                 case HEAD:
                     val head = (HeadCosmetic) obj;
-                    value.getNode("texture").setValue(head.getTexture());
+                    value.getNode("uuid").setValue(head.getUuid().toString());
                     break;
                 default:
                     throw new IllegalArgumentException("Un-implemented cosmetic type " + cosmeticType.name());
