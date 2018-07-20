@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="Cosmo:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="me.tassu" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Cosmo_main" />
+    <orderEntry type="library" name="Gradle: co.aikar:acf-sponge:0.5.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: co.aikar:taskchain-sponge:3.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: co.aikar:acf-core:0.5.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: co.aikar:taskchain-core:3.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: co.aikar:Table:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: co.aikar:locales:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.16.20" level="project" />
+    <orderEntry type="library" name="Gradle: net.jodah:expiringmap:0.5.8" level="project" />
+    <orderEntry type="library" name="Gradle: co.aikar:DelegatingMap:1.0.0-SNAPSHOT" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="Cosmo_main" />
+</module>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cosmo.iml" filepath="$PROJECT_DIR$/Cosmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cosmo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cosmo_main.iml" group="Cosmo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cosmo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Cosmo_test.iml" group="Cosmo" />
+    </modules>
+  </component>
+</project>
